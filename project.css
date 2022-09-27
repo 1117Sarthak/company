@@ -1,0 +1,144 @@
+.header{
+    background-color:orange;
+    color:white;
+
+}
+#logo{
+    padding-top: 10px;
+    font-size: 2rem;
+}
+#menu{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    float:right;
+
+}
+#menu li{
+   
+    display: inline-block;
+}
+#menu li a:hover{
+    background-color: brown;
+    padding-bottom:10px;
+
+}
+#menu li a{
+    color:white;
+     text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+}
+#banner{
+    background:url('../image/banner.jpg') ;
+    background-size: cover;
+    width:100%;
+    /* animation: slide 20s infinite; */
+
+    height:460px
+}
+.banner-title h2{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    margin-top:50px;
+}
+.banner-title .lead{
+    background-color: orange;
+    color:white;
+    padding:10px;
+
+}
+#section{
+    padding:25px;
+}
+i.fa-sharp{
+    color:orange;
+    font-size:60px;
+}
+#section-title{
+    margin-bottom: 25px;
+}
+#section-body{
+    border:2px solid black;
+    margin-bottom:0px;
+    padding:15px;
+    border-radius: 60px;
+    margin-right:0px;
+    margin-left:0px;
+
+}
+.section{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#section-title:after{
+    background-color: orange;
+    content:"";
+    display:block;
+    width:100px;
+    height:3px;
+    margin:10px auto;
+}
+img{
+    width:75px;
+}
+.testmonials{
+    background: url("../image/i3.jpg") no-repeat 0 0;
+    background-size: repeat;
+    /* animation: slide 20s infinite; */
+    animation: sho 20s infinite;
+
+
+
+}
+@keyframes sho{
+    100%{
+    color:rgb(23, 189, 37);
+        
+    }
+    50%{
+        color:rgb(187, 255, 0);
+            
+        }
+    75%{
+        color:rgb(132, 0, 255);
+                
+            }
+            100%{
+                color:rgb(217, 255, 0);
+                    
+                }
+/* }
+
+@keyframes slide{ */
+    25%{
+    background: url("../image/i3.jpg") no-repeat 0 0;
+        
+    }
+    50%{
+        background: url("../image/i2.jpg") no-repeat 0 0;
+            
+        }
+    25%{
+            background: url("../image/i1.jpg") no-repeat 0 0;
+                
+            }
+            25%{
+                background: url("../image/banner.jpg") no-repeat 0 0;
+                    
+                }
+}
+
+.textmonial{
+    color:white;
+}
+.textmonial img{
+    border-radius:20%;
+}
+.testmonials{ 
+    /* color:rgb(17, 13, 13); */
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+
